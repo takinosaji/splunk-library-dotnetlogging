@@ -1,3 +1,10 @@
+# Splunk logging for .NET Core
+
+#### Version 1.0.0
+
+Modified version of original project which targets .NET Standard and .NET Core frameworks instead of .NET Framework
+
+
 # Splunk logging for .NET 
 
 #### Version 1.7.2

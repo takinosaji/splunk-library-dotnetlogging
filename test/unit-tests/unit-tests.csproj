@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net45</TargetFrameworks>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
 <ItemGroup>
@@ -13,10 +13,12 @@
 </ItemGroup>
 
 <ItemGroup>
+  <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
   <PackageReference Include="Newtonsoft.Json" version="11.0.2" />
   <PackageReference Include="EnterpriseLibrary.SemanticLogging" Version="2.0.1406.1" />
-  <PackageReference Include="xunit" Version="1.9.2" />
-  <PackageReference Include="xunit.runner.visualstudio" Version="2.0.0" />
+  <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="4.5.0" />
+  <PackageReference Include="xunit" Version="2.4.1" />
+  <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
 </ItemGroup>
 
 <ItemGroup>

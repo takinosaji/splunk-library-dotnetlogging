@@ -1,12 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net45</TargetFrameworks>
     <Company>Splunk, Inc.</Company>
-    <Copyright>Copyright © Splunk, Inc. 2015</Copyright>
-    <AssemblyVersion>1.7.2.0</AssemblyVersion>
-    <FileVersion>1.7.2.0</FileVersion>
+    <Copyright></Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
     <Version>1.7.2</Version>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Splunk.Logging.TraceListener.Core</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Splunk.Logging.TraceListener, TakinosaJi</Authors>
+    <PackageProjectUrl>https://github.com/takinosaji/splunk-library-dotnetlogging</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/takinosaji/splunk-library-dotnetlogging</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/takinosaji/splunk-library-dotnetlogging/blob/upgrade-to-net-standard/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
